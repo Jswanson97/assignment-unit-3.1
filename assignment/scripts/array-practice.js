@@ -66,7 +66,9 @@ console.log('Added an animal to end,', animalArray);
 //      a dessert that you love.
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
-
+let dessert = 'Cheesecake';
+favoriteFoods.push(dessert);
+console.log('My favorite foods are', favoriteFoods);
 
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
@@ -76,7 +78,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 // 4.b. TODO: Create a variable `entree` and assign it a string value of
 //      an entree that you enjoy.
 //      Add the `entree` to the beginning of your `favoriteFoods` array.
-
+let entree = 'burrito';
+favoriteFoods.unshift(entree);
+console.log('My favorite foods are', favoriteFoods);
 
 // Example: Remove the last animal by using the Array.pop method.
 let removedAnimal = animalArray.pop();
@@ -85,6 +89,7 @@ console.log('The animals are now', animalArray);
 
 // NOTE: Use the `colors` array for 4.c and 4.d.
 let colors = ['orange', 'yellow', 'green', 'teal'];
+console.log('The list of colors is', colors);
 
 // 4.c. TODO: The last value inside the `colors` array was added by mistake.
 //      Remove it from the array and store it inside a new variable called
@@ -92,7 +97,9 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
-
+let lastColor = colors.pop();
+console.log('The color that was removed was', lastColor);
+console.log('The current list of colors is now', colors);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
