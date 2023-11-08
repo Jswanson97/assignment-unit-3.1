@@ -45,10 +45,13 @@ console.log('The second animal is ', secondAnimal);
 //      You'll need to console.log `animalArray` and `lastAnimal` to make
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
-
+let lastAnimal = animalArray[3];
+console.log('The total number of animals is ', animalArray);
+console.log('The last animal in the list is ', lastAnimal);
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
-
+let newLastAnimal = animalArray.pop();
+console.log('Another way to show that', newLastAnimal, 'is the last animal.');
 
 
 // Adding & Removing Array Items
